@@ -1,13 +1,15 @@
+
 name: dm4bem-env
 
 channels:
   - conda-forge
 
 dependencies:
-  - python=3.14.6
+  - python=3.12
   - jupyter=1.1.1
   - jupyterlab=4.5.9
-  - matplotlib=3.11.0
-  - numpy=2.4.6
-  - scipy=1.18.0
-  - pandas=3.0.3
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - spyder
